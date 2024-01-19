@@ -1,18 +1,18 @@
 
 
-Il progetto consiste nella realizzazione di un componente SpringBoot che espone una serie di API per funzioni demografiche e meteorologiche sul territorio italiano.
-Il componente risponde alle seguenti esigenze:
+The project involves the development of a SpringBoot component that exposes a series of APIs for demographic and meteorological functions in the Italian territory. The component addresses the following needs:
 
-- ottenere la lista delle citta' con numero di abitanti maggiore di un valore (passato in input) //POST?
-- ritornare la lista di comuni in una data regione con numero di abitanti maggiore di un valore (passato in input)//Post
-- ritornare la lista di comuni di una data provincia con numero di abitanti maggiore di un valore (passato in input)//((POST))
-- ritornare le previsioni meteo di una data citta' passata in input
-- ritornare la media delle temperature di un certo numero di giorni (parametro passato in input) di una data citta' (parametro passato in input)
-- data una provincia ed un giorno, ritornare la media delle temperature di tutti i comuni appartenenti a quella provincia per quel giorno
+Obtain the list of cities with a population greater than a specified value (passed as input)
+Return the list of municipalities in a given region with a population greater than a specified value (passed as input) 
+Return the list of municipalities in a given province with a population greater than a specified value (passed as input) 
+Return the weather forecast for a given city passed as input
+Return the average temperatures for a certain number of days (parameter passed as input) for a given city (parameter passed as input)
+Given a province and a day, return the average temperatures of all municipalities belonging to that province for that day
 
-I dati provengono dai seguenti link:
-- Repository dei comuni italiani aggiornato al 2018: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/tree/master
-- API meteo gratuite: https://open-meteo.com/
+The data is sourced from the following links:
+
+Italian municipalities repository updated to 2018: https://github.com/MatteoHenryChinaski/Comuni-Italiani-2018-Sql-Json-excel/tree/master
+- Weather Forecast API : https://open-meteo.com/
 
 
 Developed in 5 days
